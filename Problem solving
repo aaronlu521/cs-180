@@ -1,2 +1,15 @@
 Problem Solving
 1. Cleaning the core of the problem
+2. Algorithm design
+3. Algorithm validation (checking correctness)
+4. Algorithm evaluation (complexity)
+
+We exclude all inessential issues
+Essential for what:
+1. Essential for the problem
+2. Essential for (good) solution
+3. Essential for (good) algorithm
+
+Essential for whom:
+1. Essential for the user
+2. Essential for the programmer
