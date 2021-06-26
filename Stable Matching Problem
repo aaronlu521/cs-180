@@ -1,1 +1,28 @@
+Proposition 1.
+There's no more than n^2 loops in MA (Matching Algorithm)
+|M x W| = n^2
 
+Proposition 2.
+S(f) is a stable matching
+Proof: Assume S(f) is not stable
+  (m, w) & (m', w') exists in S(f)
+  m(w') > m(w) & w'(m) < w'(m') << instability
+Case 1: m did not propose to w', then m(w) > m(w') << contradiction to instability
+Case 2: m proposed to w', then w'(m') > w'(m) << contradiction
+
+Proposition 3.
+SMA (Stable Matching Algorithm) stops & S(f) is perfect
+
+Proposition 4.
+S(f) = S* meaning best valid partner to each m
+Proof: Assume S(f) =! S*, Choose m such that m was 1st rejected by best(m) & w =! best(m) = w(0)
+There is some man m such that (m, w) in the output S(f), then m(w0) > m(w)
+case 1: (m', w0) when m applied to w0, w0(m')>w0(m)
+case 2: (m, w0) when m' applied to w0 and because w0(m') > w0(m), so (m, w0) destroyed and (m',w0) formed
+There is such a perfect stable matching S as (m, w0) exists in S, (m', w') exists in S; m'(w0) >= m'(best(m')) >= m'(w'); we know that  w' =! w0, m'(w0) > m'(w')
+
+Proposition 5.
+S(f) = S(ww')
+Proof: Assume S(f) =! S(ww)
+Some w in W such that (m,w) exists in S(f) & m =! worst(w) = m(0); (m0, w) in S, (m,w') in S
+By Pr.4, w = best(m); m(w) > m(w') and w(m) > w(m0)  << contradiction to instability in S
