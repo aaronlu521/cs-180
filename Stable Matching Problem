@@ -26,3 +26,4 @@ S(f) = S(ww')
 Proof: Assume S(f) =! S(ww)
 Some w in W such that (m,w) exists in S(f) & m =! worst(w) = m(0); (m0, w) in S, (m,w') in S
 By Pr.4, w = best(m); m(w) > m(w') and w(m) > w(m0)  << contradiction to instability in S
+/
